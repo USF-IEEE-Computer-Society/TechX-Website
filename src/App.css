@@ -65,6 +65,10 @@ a {
     @apply inline-flex self-start w-fit px-3 py-1 font-medium rounded-2xl md:rounded-full;
   }
 
+  .PillReportCard {
+    @apply text-xs inline-flex self-start w-fit px-3 py-1 font-medium rounded-2xl md:text-sm md:rounded-full;
+  }
+
   .neon-text {
     color: #00f3ff;
     text-shadow:
@@ -170,5 +174,13 @@ a {
     text-overflow: ellipsis;
     font-weight: normal;
     font-size: 1.125rem;
+  }
+
+  .report-heading {
+    @apply text-2xl md:text-3xl font-bold mb-4 text-gray-900;
+  }
+
+  .report-paragraph {
+    @apply text-base md:text-lg mb-4 leading-relaxed text-gray-700;
   }
 }
