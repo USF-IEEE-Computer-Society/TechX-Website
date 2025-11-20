@@ -13,7 +13,7 @@ export const volunteersData = [
     year: 'Senior',
     headshot: akmalImg,
     linkedinLink: 'https://www.linkedin.com/in/akmal-kurbanov/',
-    pills: ['Eboard Member'],
+    pills: ['E-board Member'],
   },
   {
     name: 'Boburjon Usmonov',
@@ -21,7 +21,7 @@ export const volunteersData = [
     year: 'Senior',
     headshot: bobimg,
     linkedinLink: 'https://www.linkedin.com/in/boburjonusmonov/',
-    pills: ['Eboard Member'],
+    pills: ['E-board Member'],
   },
   {
     name: 'Adelina Albert',
@@ -37,7 +37,7 @@ export const volunteersData = [
     year: 'Graduate',
     headshot: nadiaImg,
     linkedinLink: 'https://www.linkedin.com/in/nadezhda890/',
-    pills: ['Eboard Member'],
+    pills: ['E-board Member'],
   },
   {
     name: 'Liam Osman',
@@ -45,7 +45,7 @@ export const volunteersData = [
     year: 'Alumni',
     headshot: liamImg,
     linkedinLink: 'https://www.linkedin.com/in/liam-osman/',
-    pills: ['Volunteer'],
+    pills: ['E-board Member'],
   },
   {
     name: 'Paul Oladele ',
