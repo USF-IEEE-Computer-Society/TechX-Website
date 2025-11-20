@@ -1,20 +1,24 @@
 import ReportCard from './elements/ReportCard'
 import { reportQuotes } from '../data/reportData'
-import LazyImage from './elements/LazyImage'
 import Mosaic from './Mosaic'
+import catgptImg from '../assets/catgpt.jpeg'
 
 import volunteerImg from '../assets/report/techx-2.webp'
 
 export default function Report() {
   return (
-    <div className="w-full min-h-screen bg-white">
+    <div className="w-full min-h-screen bg-white relative">
       <article className="max-w-5xl mx-auto px-6 py-12">
         <header className="mb-12 text-center">
           <h1 className="text-3xl md:text-5xl font-bold tracking-tight mb-4 text-gray-900">
             TechX Florida 2025: Our Celebration of Community and Innovation
           </h1>
-          <div className="text-gray-500 text-sm md:text-base">November 8th, 2025 • University of South Florida • IEEE Computer Society at USF</div>
-          <LazyImage src={volunteerImg} alt="Volunteer" className="w-full h-full rounded-md shadow-md mt-8" />
+          <div className="text-gray-500 text-sm md:text-base hidden md:block">
+            November 8th, 2025 • University of South Florida • IEEE Computer Society Student Branch at USF
+          </div>
+          <div className="text-gray-500 text-sm md:text-base block md:hidden">November 8th, 2025 • University of South Florida</div>
+          <div className="text-gray-500 text-sm md:text-base block md:hidden">IEEE Computer Society at USF</div>
+          <img src={volunteerImg} alt="Volunteer" className="w-full h-auto rounded-md shadow-md mt-8" />
         </header>
 
         <section className="mb-8">
@@ -100,6 +104,7 @@ export default function Report() {
           </div>
         </section>
       </article>
+      <img src={catgptImg} alt="CatGPT" className="h-40 md:h-60 absolute bottom-0 right-10 hidden min-[1530px]:block" />
     </div>
   )
 }

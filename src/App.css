@@ -177,7 +177,7 @@ a {
   }
 
   .report-heading {
-    @apply text-2xl md:text-3xl font-bold mb-4 text-gray-900;
+    @apply text-2xl md:text-3xl font-bold mb-8 text-gray-900;
   }
 
   .report-paragraph {

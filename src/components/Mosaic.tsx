@@ -22,7 +22,7 @@ export default function Mosaic() {
 
   return (
     <div className="w-screen relative left-1/2 right-1/2 -mx-[50vw] my-8 px-4 md:px-40">
-      <div className="grid grid-cols-2 md:grid-cols-5 gap-3">
+      <div className="grid grid-cols-2 md:grid-cols-5 gap-2 md:gap-3">
         {images.map((image, index) => (
           <div key={index} className="overflow-hidden rounded-md shadow-md hover:shadow-xl transition-shadow duration-300">
             <LazyImage

@@ -35,7 +35,7 @@ export default function ReportCard(props: ReportCardProps) {
           </div>
         </div>
       </div>
-      <p className="text-md md:text-md text-gray-600 mt-3">{props.quote}</p>
+      <p className="text-base md:text-md text-gray-600 mt-3 break-words">{props.quote}</p>
     </div>
   )
 }

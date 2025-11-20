@@ -9,11 +9,14 @@ import Companies from './sections/Companies'
 import Photos from './sections/Photos'
 import Team from './sections/Team'
 import AfterDark from './sections/AfterDark'
+import Notification from './sections/Notification'
 
 function Home() {
   return (
     <>
+      <Notification />
       <HeroSection />
+
       <WhyAttend />
       <Highlights />
       <GetTickets />

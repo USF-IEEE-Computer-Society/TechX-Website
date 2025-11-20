@@ -6,7 +6,7 @@ import { CURRENT_YEAR } from '../../App'
 
 export default function Navbar() {
   return (
-    <div className={'relative'}>
+    <div className={'relative z-50'}>
       <nav className="w-full flex flex-col-reverse md:flex-row items-center justify-between md:px-30 py-5 bg-white shadow gap-2">
         <div className="flex items-center gap-6 text-2xl underline decoration-1 font-bold">
           <Link className={'hover:scale-105 duration-300 ease-in-out cursor-pointer mt-2'} to={`/${CURRENT_YEAR}`}>
