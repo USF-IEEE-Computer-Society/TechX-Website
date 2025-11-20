@@ -2,6 +2,7 @@ import TeamCard from '../elements/TeamCard'
 
 import { teamData } from '../../data/teamStudentsData'
 import { teamProfessionsData } from '../../data/teamProfessionalsData'
+import { volunteersData } from '../../data/volunteersData'
 
 export default function Team() {
   return (
@@ -21,6 +22,21 @@ export default function Team() {
         }
       >
         {teamData.map((s, i) => (
+          <TeamCard key={i} name={s.name} major={s.major} year={s.year} headshot={s.headshot} linkedinLink={s.linkedinLink} pills={s.pills} />
+        ))}
+      </div>
+
+      <p className={'w-full text-md md:text-2xl font-semibold text-ellipsis text-gray-600 text-center justify-center text-pretty mt-4'}>
+        {' '}
+        Volunteers{' '}
+      </p>
+
+      <div
+        className={
+          'w-full h-full gap-[1rem] pb-[1rem] justify-items-center grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 p-[1rem] lg:p-[4rem] lg:pb-[1rem] lg:pt-[2rem]'
+        }
+      >
+        {volunteersData.map((s, i) => (
           <TeamCard key={i} name={s.name} major={s.major} year={s.year} headshot={s.headshot} linkedinLink={s.linkedinLink} pills={s.pills} />
         ))}
       </div>
