@@ -1,7 +1,7 @@
 import ReportCard from './elements/ReportCard'
 import { reportQuotes } from '../data/reportData'
 import Mosaic from './Mosaic'
-import catgptImg from '../assets/catgpt.jpeg'
+import catgptImg from '../assets/catGPT.jpeg'
 
 import volunteerImg from '../assets/report/techx-2.webp'
 
