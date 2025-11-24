@@ -12,7 +12,8 @@
     "format:check": "prettier --check \"src/**/*.{ts,tsx,css}\"",
     "preview": "vite preview",
     "prepare": "husky",
-    "img:webp": "tsx --tsconfig tsconfig.scripts.json scripts/convert-to-webp.ts"
+    "img:webp": "tsx --tsconfig tsconfig.scripts.json scripts/convert-to-webp.ts",
+    "img:resize-mosaic": "tsx --tsconfig tsconfig.scripts.json scripts/resize-mosaic.ts"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.1.13",
