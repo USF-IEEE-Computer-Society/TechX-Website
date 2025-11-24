@@ -2,7 +2,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import sharp from 'sharp';
 
-const MOSAIC_DIR = 'src/assets/report';
+const MOSAIC_DIR = 'src/assets/techx2024';
 const RESIZE_FACTOR = 2;
 
 async function resizeImage(filePath: string): Promise<void> {
