@@ -4,6 +4,7 @@ import Mosaic from './Mosaic'
 import catgptImg from '../assets/catGPT.webp'
 
 import volunteerImg from '../assets/report/techx-2.webp'
+import Button from './elements/Button'
 
 export default function Report() {
   return (
@@ -23,9 +24,9 @@ export default function Report() {
 
         <section className="mb-8">
           <p className="text-lg md:text-xl text-gray-700 leading-relaxed mb-6">
-            On November 8th, 2025, we brought together over 336 tech enthusiasts at the University of South Florida for TechX Florida Artificial
-            Intelligence conference's second edition - the first and only TechX conference in the US and Canada. If we had to sum it up in one word?{' '}
-            <span className="font-semibold text-gray-900">Terrific</span>.
+            On November 8th, 2025, we brought together over 336 tech enthusiasts from 500+ registrations at the University of South Florida for TechX
+            Florida Artificial Intelligence conference's second edition - the first and only TechX conference in the US and Canada. If we had to sum
+            it up in one word? <span className="font-semibold text-gray-900">Terrific</span>.
           </p>
 
           <Mosaic />
@@ -43,16 +44,16 @@ export default function Report() {
               merchandise, and meals throughout the day.
             </p>
           </div>
-          {/*<div className="w-full max-w-3xl mx-auto aspect-video">
+          <div className="w-full max-w-3xl mx-auto aspect-video">
             <iframe
               className="w-full h-full rounded-md shadow-md"
-              src="https://www.youtube.com/embed/dQw4w9WgXcQ?si=HZNd5y2itg3imnRW"
+              src="https://www.youtube.com/embed/8gw93EI05jc"
               title="YouTube video player"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
               referrerPolicy="strict-origin-when-cross-origin"
               allowFullScreen
             />
-          </div>*/}
+          </div>
         </section>
 
         <section className="mb-8">
@@ -101,6 +102,17 @@ export default function Report() {
               moments. Stay tuned.
             </p>
             <p className="report-paragraph">Thank you for being part of TechX Florida 2025. You made it terrific. 💚💛</p>
+
+            <div className="flex justify-center">
+              <a
+                className={'hover:scale-110 duration-300 ease-in-out cursor-pointer mt-2'}
+                href="https://forms.gle/Wdqxtoei5A8Jr5Ej8"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Button id="JoinTechX2026Waitlist" text="Join TechX 2026 Waitlist" />
+              </a>
+            </div>
           </div>
         </section>
       </article>

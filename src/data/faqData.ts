@@ -48,7 +48,7 @@ export const Questions: Faq_Block[] = [
     id: 7,
     Question: 'How can I get involved with TechX?',
     Response:
-      "Companies and startups interested in tabling, sponsoring, or speaking can contact the organizing team at <a href='mailto:vs33@usf.edu'>vs33@usf.edu</a>. Students interested in volunteering can fill out form <a href='https://forms.gle/dxrYSmsqJVcwb6nS8' target='_blank'>here</a>.",
+      "Companies and startups interested in tabling, sponsoring, or speaking can contact the organizing team at <a href='mailto:info@techxflorida.com'>info@techxflorida.com</a>. Students interested in volunteering can fill out form <a href='https://forms.gle/dxrYSmsqJVcwb6nS8' target='_blank'>here</a>.",
   },
   {
     id: 8,

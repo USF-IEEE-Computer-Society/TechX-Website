@@ -26,7 +26,7 @@ export const volunteersData = [
   {
     name: 'Adelina Albert',
     major: 'Artificial Intelligence',
-    year: 'Senior',
+    year: 'Freshman',
     headshot: adelinaImg,
     linkedinLink: 'https://www.linkedin.com/in/adelina-albert-3906a3386/',
     pills: ['Volunteer'],
@@ -48,7 +48,7 @@ export const volunteersData = [
     pills: ['E-board Member'],
   },
   {
-    name: 'Paul Oladele ',
+    name: 'Paul Oladele',
     major: 'Computer Science',
     year: 'Freshman',
     headshot: paulImg,
