@@ -66,7 +66,7 @@ a {
   }
 
   .PillReportCard {
-    @apply text-xs inline-flex self-start w-fit px-3 py-1 font-medium rounded-2xl md:text-sm md:rounded-full;
+    @apply text-xs md:text-xs inline-flex self-start w-fit px-3 py-1 font-medium rounded-2xl md:rounded-full;
   }
 
   .neon-text {

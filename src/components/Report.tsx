@@ -66,25 +66,21 @@ export default function Report() {
               across the US - students and industry professionals alike. Around 40% of the attendees were professionals from the Tampa Bay Area.{' '}
             </p>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-            <ReportCard
-              name={reportQuotes[0].name}
-              quote={reportQuotes[0].quote}
-              linkedinLink={reportQuotes[0].linkedinLink}
-              company={reportQuotes[0].company}
-              image={reportQuotes[0].image}
-              pills={reportQuotes[0].pills}
-            />
-            <ReportCard
-              name={reportQuotes[1].name}
-              quote={reportQuotes[1].quote}
-              linkedinLink={reportQuotes[1].linkedinLink}
-              company={reportQuotes[1].company}
-              image={reportQuotes[1].image}
-              pills={reportQuotes[1].pills}
-            />
-            {/*<ReportCard name={reportQuotes[2].name} quote={reportQuotes[2].quote} linkedinLink={reportQuotes[2].linkedinLink} company={reportQuotes[2].company} image={reportQuotes[2].image} pills={reportQuotes[2].pills} />
-        <ReportCard name={reportQuotes[3].name} quote={reportQuotes[3].quote} linkedinLink={reportQuotes[3].linkedinLink} company={reportQuotes[3].company} image={reportQuotes[3].image} pills={reportQuotes[3].pills} />*/}
+          <div className="w-screen relative left-1/2 right-1/2 -mx-[50vw] my-8 px-4 md:px-40">
+            <div className="flex md:flex-row flex-col gap-4">
+              {reportQuotes.map((quote, index) => (
+                <div key={index} className="flex-1 flex">
+                  <ReportCard
+                    name={quote.name}
+                    quote={quote.quote}
+                    linkedinLink={quote.linkedinLink}
+                    company={quote.company}
+                    image={quote.image}
+                    pills={quote.pills}
+                  />
+                </div>
+              ))}
+            </div>
           </div>
         </section>
 
