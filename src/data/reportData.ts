@@ -1,6 +1,7 @@
 import reginaldImg from '../assets/speakers/reginald.webp'
 import antraImg from '../assets/speakers/antra.webp'
 import ianImg from '../assets/report/ian.jpg'
+import matthewImg from '../assets/report/matthew.jpg'
 
 export const reportQuotes = [
   {
@@ -32,18 +33,15 @@ export const reportQuotes = [
     image: ianImg,
     pills: ['Student'],
   },
-  /*
   {
     name: 'Matthew Yorkgitis',
     quote:
-        'Had a great day helping run the Tampa Devs table at the TechX Florida 2025 AI Conference hosted at University of South Florida! Saw a lot of new and familiar faces and enjoyed listening to Joe Blankenship deliver an intriguing talk about his experience while building an AI LLM based game to help preserve endangered languages!',
+      'Had a great day helping run the Tampa Devs table at the TechX Florida 2025 AI Conference hosted at University of South Florida! Saw a lot of new and familiar faces and enjoyed listening to Joe Blankenship deliver an intriguing talk about his experience while building an AI LLM based game to help preserve endangered languages!',
     company: 'Vice-President @ Tampa Devs',
-    linkedinLink:
-      'https://www.linkedin.com/posts/matthewyorkgitis_tech-conference-ai-activity-7393044394599419905-7R01',
+    linkedinLink: 'https://www.linkedin.com/posts/matthewyorkgitis_tech-conference-ai-activity-7393044394599419905-7R01',
     image: matthewImg,
     pills: ['Professional'],
   },
-  */
   /*
   {
     name: "Anna Bakhvalova",
