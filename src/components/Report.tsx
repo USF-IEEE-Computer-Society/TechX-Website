@@ -99,7 +99,7 @@ export default function Report() {
             </p>
             <p className="report-paragraph">Thank you for being part of TechX Florida 2025. You made it terrific. 💚💛</p>
 
-            <div className="flex justify-center">
+            <div className="flex justify-center gap-4">
               <a
                 className={'hover:scale-110 duration-300 ease-in-out cursor-pointer mt-2'}
                 href="https://forms.gle/Wdqxtoei5A8Jr5Ej8"
@@ -107,6 +107,14 @@ export default function Report() {
                 rel="noopener noreferrer"
               >
                 <Button id="JoinTechX2026Waitlist" text="Join TechX 2026 Waitlist" />
+              </a>
+              <a
+                className={'hover:scale-110 duration-300 ease-in-out cursor-pointer mt-2'}
+                href="mailto:info@techxflorida.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Button id="EmailOrganizers" text="Email Organizers" />
               </a>
             </div>
           </div>

@@ -36,7 +36,7 @@ export const reportQuotes = [
   {
     name: 'Matthew Yorkgitis',
     quote:
-      'Had a great day helping run the Tampa Devs table at the TechX Florida 2025 AI Conference hosted at University of South Florida! Saw a lot of new and familiar faces and enjoyed listening to Joe Blankenship deliver an intriguing talk about his experience while building an AI LLM based game to help preserve endangered languages!',
+      'Had a great day helping run the Tampa Devs table at the TechX Florida 2025 AI Conference hosted at University of South Florida! Saw a lot of new and familiar faces and enjoyed listening to Joe Blankenship deliver an intriguing talk about his experience while building an AI LLM based game to help preserve endangered languages! Thank you IEEE Computer Society Student Branch Chapter at USF for putting together this fun event for us all!',
     company: 'Vice-President @ Tampa Devs',
     linkedinLink: 'https://www.linkedin.com/posts/matthewyorkgitis_tech-conference-ai-activity-7393044394599419905-7R01',
     image: matthewImg,
