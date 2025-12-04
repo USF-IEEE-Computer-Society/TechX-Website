@@ -99,7 +99,7 @@ export default function Report() {
             </p>
             <p className="report-paragraph">Thank you for being part of TechX Florida 2025. You made it terrific. 💚💛</p>
 
-            <div className="flex justify-center gap-4">
+            <div className="flex flex-col md:flex-row justify-center items-center gap-4">
               <a
                 className={'hover:scale-110 duration-300 ease-in-out cursor-pointer mt-2'}
                 href="https://forms.gle/Wdqxtoei5A8Jr5Ej8"
