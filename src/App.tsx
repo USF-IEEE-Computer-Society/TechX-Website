@@ -10,6 +10,7 @@ import AfterDark from './components/sections/AfterDark'
 import { SpeedInsights } from '@vercel/speed-insights/react'
 import Report from './components/Report'
 import Year2026 from './Year2026'
+import DetailedReport from './DetailedReport'
 
 export const CURRENT_YEAR = '2025'
 
@@ -23,12 +24,14 @@ function App() {
         <Route path="/team" element={<Navigate to={`/${CURRENT_YEAR}/team`} replace />} />
         <Route path="/afterdark" element={<Navigate to={`/${CURRENT_YEAR}/afterdark`} replace />} />
         <Route path="/report" element={<Navigate to={`/${CURRENT_YEAR}/report`} replace />} />
+        <Route path="/detailed-report" element={<Navigate to={`/${CURRENT_YEAR}/detailed-report`} replace />} />
 
         <Route path="/2025" element={<Home />} />
         <Route path="/2025/schedule" element={<Schedule />} />
         <Route path="/2025/team" element={<Team />} />
         <Route path="/2025/afterdark" element={<AfterDark />} />
         <Route path="/2025/report" element={<Report />} />
+        <Route path="/2025/detailed-report" element={<DetailedReport />} />
 
         <Route path="/2026" element={<Year2026 />} />
 
