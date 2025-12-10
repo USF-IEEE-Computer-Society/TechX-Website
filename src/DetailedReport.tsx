@@ -8,7 +8,7 @@ export default function DetailedReport() {
   const [images, setImages] = useState<string[]>([])
 
   useEffect(() => {
-    const imageModules: ImageModule = import.meta.glob('./assets/new_report/*.{jpg,jpeg,png,webp}', { eager: true }) as ImageModule
+    const imageModules: ImageModule = import.meta.glob('./assets/detailed_report/*.{jpg,jpeg,png,webp}', { eager: true }) as ImageModule
 
     const imagePaths = Object.keys(imageModules)
       .sort((a, b) => {
@@ -26,9 +26,9 @@ export default function DetailedReport() {
   }, [])
 
   return (
-    <div className="w-full min-h-screen p-8">
+    <div className="w-full min-h-screen p-4 md:p-8">
       <h1 className="text-3xl md:text-5xl font-bold tracking-tight mb-4 text-gray-900 text-center mb-10">TechX Florida 2025 Detailed Report</h1>
-      <div className="max-w-5xl mx-auto flex flex-col md:grid md:grid-cols-2 gap-1">
+      <div className="max-w-6xl mx-auto flex flex-col md:grid md:grid-cols-2 gap-1">
         {images.map((img, index) => (
           <img
             key={index}
