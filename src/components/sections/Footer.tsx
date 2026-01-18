@@ -73,7 +73,7 @@ export default function Footer() {
 
       <h2 className={'w-[100%] text-lg text-[#C9C9C9] text-center text-balance mt-[2rem]'}>
         {' '}
-        © 2025 TechX Florida. All rights reserved. No commercial use without permission.{' '}
+        © 2026 TechX Florida. All rights reserved. No commercial use without permission.{' '}
       </h2>
     </div>
   )
