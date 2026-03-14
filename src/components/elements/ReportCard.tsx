@@ -12,7 +12,7 @@ interface ReportCardProps {
 
 export default function ReportCard(props: ReportCardProps) {
   return (
-    <div className="w-full rounded-xl h-full mb-2 md:mb-0 p-4 border-2 border-gray-300 bg-gray-100 flex flex-col">
+    <div className="w-full rounded-xl h-full mb-2 md:mb-0 p-4 border-2 border-gray-300 bg-gray-100/30 flex flex-col shadow-md">
       <div className="flex flex-row gap-2">
         <LazyImage className="h-30 w-auto aspect-square object-cover rounded" src={props.image} alt={props.name} />
         <div className="flex flex-col p-2 gap-1">
