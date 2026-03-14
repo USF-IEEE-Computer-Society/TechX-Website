@@ -18,7 +18,7 @@ export default function Report2024() {
         <div className="flex justify-center">
           <a
             className="hover:scale-110 duration-300 ease-in-out cursor-pointer mt-2"
-            href="mailto:info@techxflorida.com"
+            href="https://www.ieeecsusf.com/news/techx-florida-2024-memory-gallery"
             target="_blank"
             rel="noopener noreferrer"
           >
