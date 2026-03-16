@@ -1,5 +1,4 @@
 import gbm from '../../assets/gbm.webp'
-import Button from '../elements/Button'
 
 export default function Whatsapp() {
   return (
@@ -14,14 +13,9 @@ export default function Whatsapp() {
 
           <p className={'text-lg text-center text-balance mb-12'}> Network with attendees, get updates, and stay in the loop </p>
 
-          <a
-            className={'hover:scale-110 duration-300 ease-in-out cursor-pointer mt-2'}
-            href="https://chat.whatsapp.com/I3uF8X6FHAr3xF8DGfALgA"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Button id="WhatsappJoin" text="Join" />
-          </a>
+          <p className={'text-base text-center text-red-600 font-semibold mt-2'}>
+            Unfortunately, Whatsapp group is closed
+          </p>
         </div>
       </div>
     </div>
